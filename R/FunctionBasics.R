@@ -33,9 +33,9 @@ delta_freq <- function(midi_file){
   return(digit)}
 
 benford_categorization <- function(midi_file){
-  freq_deltas <- delta_freq("DontLeaveMeNow.mid")
+  freq_deltas <- delta_freq(midi_file)
   freq_deltas1 <- data.frame(c(Type = "Wavelength",freq_deltas))
-  notelength_deltas <- delta_notelength("DontLeaveMeNow.mid")
+  notelength_deltas <- delta_notelength(midi_file)
   notelength_deltas1 <- data.frame(c(Type="Note Length",notelength_deltas))
   clean_df <- rbind(freq_deltas1,notelength_deltas1)
   categorization_df <- mutate(clean_df, Categorization = ifelse(Digit.of.Maximum.Difference == 1 & Delta > 8.92, "Not Benford",

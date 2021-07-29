@@ -1,7 +1,7 @@
 \name{delta_freq}
-\alias{WavelengthDelta}
+\alias{delta_freq}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Wavelength Delta
+\title{delta_freq
 %%  ~~function to do ... ~~
 }
 \description{

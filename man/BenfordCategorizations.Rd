@@ -1,13 +1,13 @@
 \name{benford_categorization}
-\alias{Benford Categorization}
+\alias{benford_categorization}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Benford Categorization
+\title{benford_categorization
 %%  ~~function to do ... ~~
 }
 \description{
-This function takes a midi file and returns its Benford classification as described in the paper "A Classification System for Assessing a Data Set’s Adherence to Benford’s Law"" by Sybil Prince-Nelson (2021).}
+This function takes a midi file and returns its Benford's Law classification as described in the paper "A Classification System for Assessing a Data Set’s Adherence to Benford’s Law"" by Sybil Prince-Nelson (2021).}
 \usage{
-Benford Categorization(midi_file)
+benford_categorization(midi_file)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

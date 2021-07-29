@@ -1,7 +1,7 @@
 \name{delta_notelength}
-\alias{Note Length Delta}
+\alias{delta_notelength}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Note Length Delta
+\title{delta_notelength
 %%  ~~function to do ... ~~
 }
 \description{
